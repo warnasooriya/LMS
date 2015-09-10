@@ -1,0 +1,27 @@
+.sp_countdown {display:block}
+.sp_countdown_pre_text {}
+.sp_countdown_cntdwn {}
+.sp_countdown_post_text{}
+.sp_countdown_button {}
+
+.sp_countdown_days, .sp_countdown_hours, .sp_countdown_mins, .sp_countdown_secs{
+display:inline-block;
+width:34px;height:34px;margin:0 3px;font-size:12px;color:#fff;
+text-align:center;border-radius:100px;padding:6px}
+
+.sp_countdown_days {background:#fd4239}
+.sp_countdown_days .sp_countdown_int {}
+.sp_countdown_days .sp_countdown_string {}
+.sp_countdown_hours {background:#490e6f}
+.sp_countdown_hours .sp_countdown_int {}
+.sp_countdown_hours .sp_countdown_string {}
+.sp_countdown_mins {background:#00c4df}
+.sp_countdown_mins .sp_countdown_int {}
+.sp_countdown_mins .sp_countdown_string {}
+.sp_countdown_secs {background:#ffd600}
+.sp_countdown_secs .sp_countdown_int {}
+.sp_countdown_secs .sp_countdown_string {}
+.sp_countdown_container {display:block}
+
+.sp_countdown_button{}
+.sp_countdown_button a.button {}

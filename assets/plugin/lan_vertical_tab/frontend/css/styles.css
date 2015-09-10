@@ -1,0 +1,214 @@
+div.lan_vertical_timeline{width:97%;float:left;}
+div.lan_vertical_left{width:35%;float:left;}
+div.lan_vertical_right{width:65%;float:left;}
+div.lan_vertical_timeline{float:left; margin-left: 3%;}
+div.lan_vertical_timeline ul.nav-tabs{border-left: 1px solid #d8d8d8;}
+div.lan_vertical_timeline ul.nav-tabs li{width:100%;float:left;}
+div.lan_vertical_timeline ul.nav-tabs li a{padding:0;color:#666;}
+div.lan_vertical_timeline .tab-content{overflow: hidden;padding: 0;}
+div.lan_vertical_timeline .nav-tabs>li>a{}
+div.lan_vertical_timeline .nav-tabs>li>a, 
+div.lan_vertical_timeline .nav-tabs>li.active>a, 
+div.lan_vertical_timeline .nav-tabs>li.active>a:hover, 
+div.lan_vertical_timeline .nav-tabs>li.active>a:focus{border:0;}
+div.lan_vertical_timeline .nav-tabs>li .cbp_tmlabel h3{font-size:14px;}
+div.lan_vertical_timeline .nav-tabs>li>a, 
+div.lan_vertical_timeline .nav-tabs>li.active .cbp_tmlabel h3{color: #c84700;}
+div.lan_vertical_timeline .nav-tabs>li.active .cbp_tmicon{background: #424242 url(../images/ico2.png) no-repeat  50% 50%;}
+div.lan_vertical_timeline .nav-tabs {border-bottom:0;}
+div.lan_vertical_timeline .tab-pane img{width:100%;}
+div.lan_vertical_timeline .tab-pane h3{font-size: 18px;}
+div.lan_vertical_timeline .tab-pane a{margin-top: 10px;}
+div.tab_img{z-index:1;position:relative;overflow:hidden;}
+div.tab_contain{background:#fff;z-index:2;position:relative; padding-top:20px;}
+
+.cbp_tmtimeline {
+	margin: 0 0 0 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+} 
+
+/* The line */
+.cbp_tmtimeline:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 1px;
+	background: #afdcf8;
+	left:7px;
+	margin-left: -10px;
+}
+
+.cbp_tmtimeline > li {
+	position: relative;
+}
+
+
+/* Right content */
+.cbp_tmtimeline > li .cbp_tmlabel {
+	margin:15px 15px 15px 13%;
+	line-height: 1.4;
+	position: relative;
+}
+
+.cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel {
+
+}
+
+.cbp_tmtimeline > li .cbp_tmlabel p { margin-top:0px;margin-bottom: 30px;}
+
+
+/* The icons */
+.cbp_tmtimeline > li .cbp_tmicon {
+	width: 45px;
+	height: 45px;
+	font-family: 'ecoico';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	font-size: 0.9em;
+	line-height: 45px;
+	-webkit-font-smoothing: antialiased;
+	position: absolute;
+	color: #fff;
+	background: #424242 url(../images/ico1.png) no-repeat  50% 50%;
+	border-radius: 50%;
+	box-shadow: 0 0 0 1px #d8d8d8;
+	text-align: center;
+	left: 0%;
+	top: 0;
+	margin: 0 0 0 -23px;
+}
+
+
+/* Example Media Queries */
+@media screen and (max-width: 65.375em) {
+
+	.cbp_tmtimeline > li .cbp_tmtime span:last-child {
+		font-size: 1.5em;
+	}
+}
+@media screen and (max-width: 55em) {
+
+	.vtl_container > header h1,
+	.vtl_container > header nav {
+		float: none;
+	}
+
+	.vtl_container > header > span,
+	.vtl_container > header h1 {
+		text-align: center;
+	}
+
+	.vtl_container > header nav {
+		margin: 0 auto;
+	}
+
+	.vtl_container > header > span {
+		text-indent: 30px;
+	}
+}
+@media screen and (max-width: 47.2em) {
+	.cbp_tmtimeline:before {
+		display: none;
+	}
+
+	.cbp_tmtimeline > li .cbp_tmtime {
+		width: 100%;
+		position: relative;
+		padding: 0 0 20px 0;
+	}
+
+	.cbp_tmtimeline > li .cbp_tmtime span {
+		text-align: left;
+	}
+
+	.cbp_tmtimeline > li .cbp_tmlabel {
+		margin: 0 0 30px 0;
+		padding: 1em;
+		font-weight: 400;
+		font-size: 95%;
+	}
+
+	.cbp_tmtimeline > li .cbp_tmlabel:after {
+		right: auto;
+		left: 20px;
+		border-right-color: transparent;
+		border-bottom-color: #3594cb;
+		top: -20px;
+	}
+
+	.cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel:after {
+		border-right-color: transparent;
+		border-bottom-color: #6cbfee;
+	}
+
+	.cbp_tmtimeline > li .cbp_tmicon {
+		position: relative;
+		float: left;
+		left: auto;
+		margin: -35px 5px 0 20px;
+	}
+	.cbp_tmtimeline > li {
+		margin-top: 45px;
+	}
+}
+
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+/*
+==============================================
+slideUp
+==============================================
+*/
+
+
+.slideUp{
+	animation-name: slideUp;
+	-webkit-animation-name: slideUp;	
+
+	animation-duration: 1s;	
+	-webkit-animation-duration: 1s;
+
+	animation-timing-function: ease;	
+	-webkit-animation-timing-function: ease;
+
+	visibility: visible !important;			
+}
+
+@keyframes slideUp {
+	0% {
+		transform: translateY(100%);
+	}
+			
+	100% {
+		transform: translateY(0%);
+	}	
+}
+
+@-webkit-keyframes slideUp {
+	0% {
+		-webkit-transform: translateY(100%);
+	}
+			
+	100% {
+		-webkit-transform: translateY(0%);
+	}	
+}
+
+
+/*
+==============================================
+
+==============================================
+*/

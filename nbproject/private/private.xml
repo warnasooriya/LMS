@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="2">
+        <file>
+            <url>application/views/index.php</url>
+            <bookmark id="1">
+                <name/>
+                <line>74</line>
+                <key/>
+            </bookmark>
+            <bookmark id="2">
+                <name/>
+                <line>390</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/xampp/htdocs/LMS/application/views/teacherRegister.php</file>
+            <file>file:/D:/xampp/htdocs/LMS/application/models/get_db.php</file>
+            <file>file:/D:/xampp/htdocs/LMS/application/views/index.php</file>
+            <file>file:/D:/xampp/htdocs/LMS/application/views/front_footer.php</file>
+            <file>file:/D:/xampp/htdocs/LMS/application/views/front_header.php</file>
+            <file>file:/D:/xampp/htdocs/LMS/application/config/routes.php</file>
+            <file>file:/D:/xampp/htdocs/LMS/application/config/config.php</file>
+            <file>file:/D:/xampp/htdocs/LMS/images/slider.jpg</file>
+            <file>file:/D:/xampp/htdocs/LMS/application/views/article_details_for_admin_accept.php</file>
+            <file>file:/D:/xampp/htdocs/LMS/application/views/articles_upload.php</file>
+            <file>file:/D:/xampp/htdocs/LMS/application/views/article_manage.php</file>
+            <file>file:/D:/xampp/htdocs/LMS/application/controllers/pages.php</file>
+            <file>file:/D:/xampp/htdocs/LMS/application/views/front_index.php</file>
+            <file>file:/D:/xampp/htdocs/LMS/application/views/manage_users.php</file>
+            <file>file:/D:/xampp/htdocs/LMS/js/custom.js</file>
+            <file>file:/D:/xampp/htdocs/LMS/application/config/database.php</file>
+            <file>file:/D:/xampp/htdocs/LMS/images/client1.png</file>
+            <file>file:/D:/xampp/htdocs/LMS/application/views/front_footer_details.php</file>
+            <file>file:/D:/xampp/htdocs/LMS/images/slide1.png</file>
+            <file>file:/D:/xampp/htdocs/LMS/application/views/comment_manage.php</file>
+        </group>
+    </open-files>
+</project-private>
